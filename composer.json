@@ -1,0 +1,22 @@
+{
+  "name": "Magic-HuaHua/php-sms",
+  "description": "php-sms",
+  "keywords": ["sms", "php", "sdk"],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "北菜菜",
+      "email": "admin@ddl.moe"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "qcloudsms/qcloudsms_php": "0.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ExtCore\\Sms\\": "src/"
+    }
+  }
+}
